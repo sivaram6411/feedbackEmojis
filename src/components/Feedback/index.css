@@ -1,0 +1,74 @@
+/* Write your CSS code here. */
+
+.container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0px 2px 4px 0px hsl(0, 0%, 95%);
+  text-align: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+  color: #0f172a;
+  text-align: center;
+}
+.emoji-un-order {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.emoji-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 25px;
+  list-style-type: none;
+}
+.emoji-image {
+  width: 50px;
+  height: 50px;
+}
+.emoji-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e293b;
+}
+.button {
+  background-color: #ffffff;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .sub-container {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .emoji-un-order {
+    margin-top: 40px;
+  }
+  .emoji-image {
+    width: 70px;
+    height: 70px;
+  }
+}
